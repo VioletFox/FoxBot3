@@ -14,4 +14,4 @@ client.on('message', msg => {
     else if (command === 'invite') return msg.channel.send(process.env.INVITE);
 });
 
-client.login(process.env.NDA0NDEwNzA3NTMxMjY4MDk2.DUwVEg.HvnPHFy2VTPY2di4ip1rO6iHvxg);
+client.login(process.env.TOKEN);
